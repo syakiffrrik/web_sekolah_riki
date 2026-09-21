@@ -78,3 +78,100 @@ body {
     object-fit: cover;
     object-position: bottom;
 }
+
+.tagline {
+    text-align: center;
+    background-color: var(--main-color);
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: #eaeaea;
+}
+
+.tagline h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: -5;
+    letter-spacing: 20px;
+}
+
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.berita-gambar img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.berita-deskripsi h4 {
+    margin-top: 0;
+}
+
+.berita-deskripsi a {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: #010101;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.berita-deskripsi a:hover {
+    background-color: aqua;
+    color: #eaeaea;
+}
+
+#footer {
+    padding: 40px 0px;
+    background-color: #010101;
+    color: #eaeaea;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-gambar img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.footer-deskripsi .nama-smk {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-deskripsi .footer-slogan {
+    font-size: 16px;
+    color: #eaeaea;
+}
+
+.footer-deskripsi .footer-alamat {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.footer-copyright {
+    text-align: center;
+    background-color: #2C3E50;
+    padding: 4px 0px;
+    margin-top: 0;
+    color: #eaeaea;
+}
