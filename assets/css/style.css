@@ -6,6 +6,9 @@
 
 *, html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    scrollbar-width: thin;
 } 
 
 body {
@@ -22,7 +25,7 @@ body {
 
 .container {
     max-width: 1080px;
-    margin: 0px auto     ;
+    margin: 0px auto;
 }
 
 .header-content {
@@ -98,11 +101,16 @@ body {
     padding: 40px 0px;
 }
 
+#berita .container {
+    background-color:rgb(242, 239, 229);
+    border-radius: 20px;
+}
+
 .berita-data {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 30px;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .berita-gambar img {
@@ -110,24 +118,34 @@ body {
     height: 150px;
     object-fit: cover;
     object-position: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .berita-deskripsi h4 {
     margin-top: 0;
 }
 
+.berita-deskripsi p {
+    max-width: 150vh;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
 .berita-deskripsi a {
     text-decoration: none;
     background-color: var(--main-color);
     color: #010101;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 8px 20px;
+    font-size: 12px;
     border-radius: 50px;
     transition: all .3s ease-in-out;
 }
 
 .berita-deskripsi a:hover {
-    background-color: aqua;
+    background-color: #00631a;
     color: #eaeaea;
 }
 
@@ -170,7 +188,7 @@ body {
 
 .footer-copyright {
     text-align: center;
-    background-color: #2C3E50;
+    background-color: #202a35;
     padding: 4px 0px;
     margin-top: 0;
     color: #eaeaea;
